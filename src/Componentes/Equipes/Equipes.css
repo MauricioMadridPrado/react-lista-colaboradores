@@ -1,0 +1,23 @@
+.equipe {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+
+}
+
+.equipeContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2em;
+
+}
+
+.equipe h2 {
+    text-align: center;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.6);
+    color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    align-self: center;
+    justify-self: center;
+}

@@ -1,0 +1,17 @@
+.botao {
+    
+}
+.botao input {
+    background: transparent;
+    border: none;
+    box-shadow: 0 0em 0.5em rgba(0, 0, 0, 0.4);
+    padding: 1.5em 5em;
+    border-radius: 3em;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.botao input:hover{
+    transition: 600ms;
+    cursor: pointer;
+    box-shadow: 0 0em 1em rgba(0, 0, 0, 0.8);
+}
